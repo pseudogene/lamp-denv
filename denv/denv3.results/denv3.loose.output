@@ -1,0 +1,296 @@
+> 9	14	Primer(s) generated!
+> 8	12	Primer(s) generated!
+> 8 9	1	Primer(s) generated!
+> 7	23	Primer(s) generated!
+> 7 9	1	Primer(s) generated!
+> 7 8	0	No primer generated! Will skip 7 8 in the next steps
+> 6	21	Primer(s) generated!
+> 6 9	0	No primer generated! Will skip 6 9 in the next steps
+> 6 8	0	No primer generated! Will skip 6 8 in the next steps
+> 6 7	6	Primer(s) generated!
+> 5	5	Primer(s) generated!
+> 5 9	0	No primer generated! Will skip 5 9 in the next steps
+> 5 8	0	No primer generated! Will skip 5 8 in the next steps
+> 5 7	0	No primer generated! Will skip 5 7 in the next steps
+> 5 6	0	No primer generated! Will skip 5 6 in the next steps
+> 4	3	Primer(s) generated!
+> 4 9	0	No primer generated! Will skip 4 9 in the next steps
+> 4 8	0	No primer generated! Will skip 4 8 in the next steps
+> 4 7	0	No primer generated! Will skip 4 7 in the next steps
+> 4 6	0	No primer generated! Will skip 4 6 in the next steps
+> 4 5	0	No primer generated! Will skip 4 5 in the next steps
+> 3	7	Primer(s) generated!
+> 3 9	0	No primer generated! Will skip 3 9 in the next steps
+> 3 8	0	No primer generated! Will skip 3 8 in the next steps
+> 3 7	0	No primer generated! Will skip 3 7 in the next steps
+> 3 6	0	No primer generated! Will skip 3 6 in the next steps
+> 3 5	0	No primer generated! Will skip 3 5 in the next steps
+> 3 4	0	No primer generated! Will skip 3 4 in the next steps
+> 2	8	Primer(s) generated!
+> 2 9	0	No primer generated! Will skip 2 9 in the next steps
+> 2 8	0	No primer generated! Will skip 2 8 in the next steps
+> 2 7	0	No primer generated! Will skip 2 7 in the next steps
+> 2 6	0	No primer generated! Will skip 2 6 in the next steps
+> 2 5	0	No primer generated! Will skip 2 5 in the next steps
+> 2 4	0	No primer generated! Will skip 2 4 in the next steps
+> 2 3	0	No primer generated! Will skip 2 3 in the next steps
+> 15	26	Primer(s) generated!
+> 15 9	0	No primer generated! Will skip 15 9 in the next steps
+> 15 8	0	No primer generated! Will skip 15 8 in the next steps
+> 15 7	11	Primer(s) generated!
+> 15 6	10	Primer(s) generated!
+> 15 6 7	2	Primer(s) generated!
+> 15 5	3	Primer(s) generated!
+> 15 4	1	Primer(s) generated!
+> 15 3	2	Primer(s) generated!
+> 15 2	1	Primer(s) generated!
+> 14	20	Primer(s) generated!
+> 14 9	0	No primer generated! Will skip 14 9 in the next steps
+> 14 8	0	No primer generated! Will skip 14 8 in the next steps
+> 14 7	4	Primer(s) generated!
+> 14 6	3	Primer(s) generated!
+> 14 6 7	1	Primer(s) generated!
+> 14 5	2	Primer(s) generated!
+> 14 4	0	No primer generated! Will skip 14 4 in the next steps
+> 14 3	1	Primer(s) generated!
+> 14 2	0	No primer generated! Will skip 14 2 in the next steps
+> 14 15	17	Primer(s) generated!
+> 14 15 7	4	Primer(s) generated!
+> 14 15 6	1	Primer(s) generated!
+> 14 15 6 7	1	Primer(s) generated!
+> 14 15 5	1	Primer(s) generated!
+> 14 15 3	1	Primer(s) generated!
+> 13	27	Primer(s) generated!
+> 13 9	0	No primer generated! Will skip 13 9 in the next steps
+> 13 8	0	No primer generated! Will skip 13 8 in the next steps
+> 13 7	12	Primer(s) generated!
+> 13 6	11	Primer(s) generated!
+> 13 6 7	1	Primer(s) generated!
+> 13 5	5	Primer(s) generated!
+> 13 4	0	No primer generated! Will skip 13 4 in the next steps
+> 13 3	4	Primer(s) generated!
+> 13 2	1	Primer(s) generated!
+> 13 15	22	Primer(s) generated!
+> 13 15 7	10	Primer(s) generated!
+> 13 15 6	8	Primer(s) generated!
+> 13 15 6 7	1	Primer(s) generated!
+> 13 15 5	3	Primer(s) generated!
+> 13 15 3	1	Primer(s) generated!
+> 13 15 2	1	Primer(s) generated!
+> 13 14	18	Primer(s) generated!
+> 13 14 7	3	Primer(s) generated!
+> 13 14 6	1	Primer(s) generated!
+> 13 14 6 7	0	No primer generated! Will skip 13 14 6 7 in the next steps
+> 13 14 5	2	Primer(s) generated!
+> 13 14 3	0	No primer generated! Will skip 13 14 3 in the next steps
+> 13 14 15	16	Primer(s) generated!
+> 13 14 15 7	3	Primer(s) generated!
+> 13 14 15 6	1	Primer(s) generated!
+> 13 14 15 5	1	Primer(s) generated!
+> 12	26	Primer(s) generated!
+> 12 9	0	No primer generated! Will skip 12 9 in the next steps
+> 12 8	0	No primer generated! Will skip 12 8 in the next steps
+> 12 7	12	Primer(s) generated!
+> 12 6	11	Primer(s) generated!
+> 12 6 7	2	Primer(s) generated!
+> 12 5	5	Primer(s) generated!
+> 12 4	1	Primer(s) generated!
+> 12 3	4	Primer(s) generated!
+> 12 2	1	Primer(s) generated!
+> 12 15	25	Primer(s) generated!
+> 12 15 7	11	Primer(s) generated!
+> 12 15 6	8	Primer(s) generated!
+> 12 15 6 7	2	Primer(s) generated!
+> 12 15 5	3	Primer(s) generated!
+> 12 15 4	0	No primer generated! Will skip 12 15 4 in the next steps
+> 12 15 3	1	Primer(s) generated!
+> 12 15 2	1	Primer(s) generated!
+> 12 14	19	Primer(s) generated!
+> 12 14 7	4	Primer(s) generated!
+> 12 14 6	1	Primer(s) generated!
+> 12 14 6 7	0	No primer generated! Will skip 12 14 6 7 in the next steps
+> 12 14 5	1	Primer(s) generated!
+> 12 14 3	0	No primer generated! Will skip 12 14 3 in the next steps
+> 12 14 15	15	Primer(s) generated!
+> 12 14 15 7	4	Primer(s) generated!
+> 12 14 15 6	1	Primer(s) generated!
+> 12 14 15 5	0	No primer generated! Will skip 12 14 15 5 in the next steps
+> 12 13	25	Primer(s) generated!
+> 12 13 7	10	Primer(s) generated!
+> 12 13 6	10	Primer(s) generated!
+> 12 13 6 7	1	Primer(s) generated!
+> 12 13 5	5	Primer(s) generated!
+> 12 13 3	4	Primer(s) generated!
+> 12 13 2	1	Primer(s) generated!
+> 12 13 15	23	Primer(s) generated!
+> 12 13 15 7	8	Primer(s) generated!
+> 12 13 15 6	7	Primer(s) generated!
+> 12 13 15 6 7	1	Primer(s) generated!
+> 12 13 15 5	3	Primer(s) generated!
+> 12 13 15 3	1	Primer(s) generated!
+> 12 13 15 2	1	Primer(s) generated!
+> 12 13 14	16	Primer(s) generated!
+> 12 13 14 7	3	Primer(s) generated!
+> 12 13 14 6	1	Primer(s) generated!
+> 12 13 14 5	1	Primer(s) generated!
+> 12 13 14 15	14	Primer(s) generated!
+> 12 13 14 15 7	3	Primer(s) generated!
+> 12 13 14 15 6	1	Primer(s) generated!
+> 11	14	Primer(s) generated!
+> 11 9	0	No primer generated! Will skip 11 9 in the next steps
+> 11 8	0	No primer generated! Will skip 11 8 in the next steps
+> 11 7	4	Primer(s) generated!
+> 11 6	1	Primer(s) generated!
+> 11 6 7	0	No primer generated! Will skip 11 6 7 in the next steps
+> 11 5	0	No primer generated! Will skip 11 5 in the next steps
+> 11 4	0	No primer generated! Will skip 11 4 in the next steps
+> 11 3	1	Primer(s) generated!
+> 11 2	0	No primer generated! Will skip 11 2 in the next steps
+> 11 15	11	Primer(s) generated!
+> 11 15 7	1	Primer(s) generated!
+> 11 15 6	1	Primer(s) generated!
+> 11 15 3	0	No primer generated! Will skip 11 15 3 in the next steps
+> 11 14	4	Primer(s) generated!
+> 11 14 7	0	No primer generated! Will skip 11 14 7 in the next steps
+> 11 14 6	0	No primer generated! Will skip 11 14 6 in the next steps
+> 11 14 3	0	No primer generated! Will skip 11 14 3 in the next steps
+> 11 14 15	4	Primer(s) generated!
+> 11 13	7	Primer(s) generated!
+> 11 13 7	1	Primer(s) generated!
+> 11 13 6	1	Primer(s) generated!
+> 11 13 3	1	Primer(s) generated!
+> 11 13 15	5	Primer(s) generated!
+> 11 13 15 7	1	Primer(s) generated!
+> 11 13 15 6	1	Primer(s) generated!
+> 11 13 14	3	Primer(s) generated!
+> 11 13 14 15	3	Primer(s) generated!
+> 11 12	10	Primer(s) generated!
+> 11 12 7	2	Primer(s) generated!
+> 11 12 6	1	Primer(s) generated!
+> 11 12 3	1	Primer(s) generated!
+> 11 12 15	9	Primer(s) generated!
+> 11 12 15 7	1	Primer(s) generated!
+> 11 12 15 6	1	Primer(s) generated!
+> 11 12 14	2	Primer(s) generated!
+> 11 12 14 15	2	Primer(s) generated!
+> 11 12 13	6	Primer(s) generated!
+> 11 12 13 7	1	Primer(s) generated!
+> 11 12 13 6	1	Primer(s) generated!
+> 11 12 13 3	1	Primer(s) generated!
+> 11 12 13 15	4	Primer(s) generated!
+> 11 12 13 15 7	1	Primer(s) generated!
+> 11 12 13 15 6	1	Primer(s) generated!
+> 11 12 13 14	2	Primer(s) generated!
+> 11 12 13 14 15	2	Primer(s) generated!
+> 10	21	Primer(s) generated!
+> 10 9	1	Primer(s) generated!
+> 10 8	0	No primer generated! Will skip 10 8 in the next steps
+> 10 7	11	Primer(s) generated!
+> 10 7 9	0	No primer generated! Will skip 10 7 9 in the next steps
+> 10 6	5	Primer(s) generated!
+> 10 6 7	0	No primer generated! Will skip 10 6 7 in the next steps
+> 10 5	1	Primer(s) generated!
+> 10 4	2	Primer(s) generated!
+> 10 3	3	Primer(s) generated!
+> 10 2	0	No primer generated! Will skip 10 2 in the next steps
+> 10 15	20	Primer(s) generated!
+> 10 15 7	7	Primer(s) generated!
+> 10 15 6	3	Primer(s) generated!
+> 10 15 5	1	Primer(s) generated!
+> 10 15 4	1	Primer(s) generated!
+> 10 15 3	0	No primer generated! Will skip 10 15 3 in the next steps
+> 10 14	12	Primer(s) generated!
+> 10 14 7	2	Primer(s) generated!
+> 10 14 6	1	Primer(s) generated!
+> 10 14 5	0	No primer generated! Will skip 10 14 5 in the next steps
+> 10 14 3	0	No primer generated! Will skip 10 14 3 in the next steps
+> 10 14 15	11	Primer(s) generated!
+> 10 14 15 7	2	Primer(s) generated!
+> 10 14 15 6	1	Primer(s) generated!
+> 10 13	18	Primer(s) generated!
+> 10 13 7	6	Primer(s) generated!
+> 10 13 6	4	Primer(s) generated!
+> 10 13 5	1	Primer(s) generated!
+> 10 13 3	1	Primer(s) generated!
+> 10 13 15	17	Primer(s) generated!
+> 10 13 15 7	4	Primer(s) generated!
+> 10 13 15 6	3	Primer(s) generated!
+> 10 13 15 5	1	Primer(s) generated!
+> 10 13 14	10	Primer(s) generated!
+> 10 13 14 7	2	Primer(s) generated!
+> 10 13 14 6	1	Primer(s) generated!
+> 10 13 14 15	9	Primer(s) generated!
+> 10 13 14 15 7	2	Primer(s) generated!
+> 10 13 14 15 6	1	Primer(s) generated!
+> 10 12	19	Primer(s) generated!
+> 10 12 7	9	Primer(s) generated!
+> 10 12 6	4	Primer(s) generated!
+> 10 12 5	1	Primer(s) generated!
+> 10 12 4	0	No primer generated! Will skip 10 12 4 in the next steps
+> 10 12 3	1	Primer(s) generated!
+> 10 12 15	19	Primer(s) generated!
+> 10 12 15 7	6	Primer(s) generated!
+> 10 12 15 6	3	Primer(s) generated!
+> 10 12 15 5	1	Primer(s) generated!
+> 10 12 14	12	Primer(s) generated!
+> 10 12 14 7	2	Primer(s) generated!
+> 10 12 14 6	1	Primer(s) generated!
+> 10 12 14 15	10	Primer(s) generated!
+> 10 12 14 15 7	2	Primer(s) generated!
+> 10 12 14 15 6	1	Primer(s) generated!
+> 10 12 13	18	Primer(s) generated!
+> 10 12 13 7	5	Primer(s) generated!
+> 10 12 13 6	4	Primer(s) generated!
+> 10 12 13 5	1	Primer(s) generated!
+> 10 12 13 3	1	Primer(s) generated!
+> 10 12 13 15	17	Primer(s) generated!
+> 10 12 13 15 7	4	Primer(s) generated!
+> 10 12 13 15 6	3	Primer(s) generated!
+> 10 12 13 15 5	1	Primer(s) generated!
+> 10 12 13 14	9	Primer(s) generated!
+> 10 12 13 14 7	2	Primer(s) generated!
+> 10 12 13 14 6	1	Primer(s) generated!
+> 10 12 13 14 15	8	Primer(s) generated!
+> 10 12 13 14 15 7	2	Primer(s) generated!
+> 10 12 13 14 15 6	1	Primer(s) generated!
+> 10 11	12	Primer(s) generated!
+> 10 11 7	0	No primer generated! Will skip 10 11 7 in the next steps
+> 10 11 6	1	Primer(s) generated!
+> 10 11 3	0	No primer generated! Will skip 10 11 3 in the next steps
+> 10 11 15	8	Primer(s) generated!
+> 10 11 15 6	1	Primer(s) generated!
+> 10 11 14	3	Primer(s) generated!
+> 10 11 14 15	3	Primer(s) generated!
+> 10 11 13	5	Primer(s) generated!
+> 10 11 13 6	1	Primer(s) generated!
+> 10 11 13 15	5	Primer(s) generated!
+> 10 11 13 15 6	1	Primer(s) generated!
+> 10 11 13 14	3	Primer(s) generated!
+> 10 11 13 14 15	3	Primer(s) generated!
+> 10 11 12	6	Primer(s) generated!
+> 10 11 12 6	1	Primer(s) generated!
+> 10 11 12 15	6	Primer(s) generated!
+> 10 11 12 15 6	1	Primer(s) generated!
+> 10 11 12 14	2	Primer(s) generated!
+> 10 11 12 14 15	2	Primer(s) generated!
+> 10 11 12 13	4	Primer(s) generated!
+> 10 11 12 13 6	1	Primer(s) generated!
+> 10 11 12 13 15	4	Primer(s) generated!
+> 10 11 12 13 15 6	1	Primer(s) generated!
+> 10 11 12 13 14	2	Primer(s) generated!
+> 10 11 12 13 14 15	2	Primer(s) generated!
+> 1	1	Primer(s) generated!
+> 1 9	0	No primer generated! Will skip 1 9 in the next steps
+> 1 8	0	No primer generated! Will skip 1 8 in the next steps
+> 1 7	0	No primer generated! Will skip 1 7 in the next steps
+> 1 6	0	No primer generated! Will skip 1 6 in the next steps
+> 1 5	0	No primer generated! Will skip 1 5 in the next steps
+> 1 4	0	No primer generated! Will skip 1 4 in the next steps
+> 1 3	0	No primer generated! Will skip 1 3 in the next steps
+> 1 2	0	No primer generated! Will skip 1 2 in the next steps
+> 1 15	0	No primer generated! Will skip 1 15 in the next steps
+> 1 14	0	No primer generated! Will skip 1 14 in the next steps
+> 1 13	0	No primer generated! Will skip 1 13 in the next steps
+> 1 12	0	No primer generated! Will skip 1 12 in the next steps
+> 1 11	0	No primer generated! Will skip 1 11 in the next steps
+> 1 10	0	No primer generated! Will skip 1 10 in the next steps
