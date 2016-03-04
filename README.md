@@ -155,3 +155,10 @@ Any issue related to the scientific results themselves must be done directly wit
 ##Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
+
+
+##License and distribution
+
+
+This code is distributed under the GNU GPL license v3. The documentation, raw data and work are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.​
+

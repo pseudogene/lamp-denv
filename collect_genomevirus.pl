@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-# $Revision: 0.2 $
-# $Date: 2016/02/29 $
+# $Revision: 0.3 $
+# $Date: 2016/03/04 $
 # $Id: collect_genomevirus.pl $
 # $Author: Michael Bekaert $
 #
@@ -59,7 +59,7 @@ if (defined $genome && !-e $genome && defined $after && defined $before && defin
         }
         if (defined $date && defined $country)
         {
-            if ($date > $after)
+            if ($date > $after && $date <= $before)
             {
                 $ok++;
                 print {$seq_out} q{>} . $seq->accession_number() . q{|} . $date . q{|} . $country . "\n" . $seq->seq() . "\n";
@@ -69,7 +69,7 @@ if (defined $genome && !-e $genome && defined $after && defined $before && defin
         else { print {*STDERR} '  !No metadata for accession: ', $seq->accession_number(), "\n"; $missing++; }
     }
     close $seq_out;
-    print {*STDERR} "\nNumber of sequence retrieved     ", ($ok + $skip + $missing), ($after > 0 ? "\nNumber of sequence too old       " . $skip : q{}), "\nNumber of sequence without data  ", $missing, "\nNumber of remaining sequences    ", $ok, "\n";
+    print {*STDERR} "\nNumber of sequence retrieved         ", ($ok + $skip + $missing), ($after > 0 ? "\nNumber of sequence too old too young " . $skip : q{}), "\nNumber of sequence without data      ", $missing, "\nNumber of remaining sequences        ", $ok, "\n";
     if (-r $genome)
     {
         system('GramAlign -q -F 1 -f 2 -i ' . $genome . ' -o ' . $genome . '.align.fa');
