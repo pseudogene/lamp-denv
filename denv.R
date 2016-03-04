@@ -25,7 +25,6 @@ process_dengue <- function( prefix, fasta, output ) {
         dir.create(output);
     }
     denv <- fasta2genlight(fasta, chunk=10, saveNbAlleles=TRUE, quiet=TRUE, parallel=TRUE);
-    save(denv, file=paste(output, "/", prefix, ".Rsave", sep=""));
 
     png(paste(output,"/location_of_the_SNPs.png", sep=""));
     temp <- density(position(denv), bw=10);
@@ -66,7 +65,6 @@ process_dengue <- function( prefix, fasta, output ) {
     #dev.off();
 
     pca1 <- glPca(denv, nf=3);
-    myCol <- colorplot(pca1$scores,pca1$scores, transp=TRUE, cex=4);
     
     #png(paste(output,"/PCA_scatterplot.png", sep=""));
     #scatter(pca1, posi="topright");
@@ -74,12 +72,13 @@ process_dengue <- function( prefix, fasta, output ) {
     #dev.off();
 
     pdf(paste(output,"/PCA_colourcatterplot.pdf", sep=""));
+    myCol <- colorplot(pca1$scores,pca1$scores, transp=TRUE, cex=4);
     abline(h=0,v=0, col="grey");
-    add.scatter.eig(pca1$eig[1:40],2,1,2, posi="topright", inset=.05, ratio=.3);
     title("PCA of the DENV data\n axes 1-2");
     dev.off();
 
     png(paste(output,"/PCA_colourcatterplot.png", sep=""));
+    myCol <- colorplot(pca1$scores,pca1$scores, transp=TRUE, cex=4);
     abline(h=0,v=0, col="grey");
     add.scatter.eig(pca1$eig[1:40],2,1,2, posi="topright", inset=.05, ratio=.3);
     title("PCA of the DENV data\n axes 1-2");
@@ -108,7 +107,7 @@ process_dengue <- function( prefix, fasta, output ) {
 
     write.tree(tre, file = paste(output, "/", prefix, ".tree.tre", sep=""));
 
-    save(denv, tre, pca1, file=paste(output, "/", prefix, ".Rsave", sep=""));
+    save(denv, tre, pca1, myCol, file=paste(output, "/", prefix, ".Rsave", sep=""));
 }
 
 process_dengue("denv1","denv1.fasta.align.fa","denv1.results");
