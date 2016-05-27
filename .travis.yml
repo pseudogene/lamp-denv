@@ -1,0 +1,14 @@
+sudo: required
+language: python
+python:
+- 3.5
+services:
+- docker
+install:
+- docker build --rm=true --file=Dockerfile -t lamp-denv .
+script:
+- docker run -it lamp-denv /denv/collect_genomevirus.pl -f denv4.fasta -d 4 -a 2004
+  -b 2014
+notifications:
+  slack:
+    secure: zMHF1S63IPjgYZCGyQfeKBKU8q/T68UUFQybqbQKUq9aNFqs669vATP9ZnM1YC0yN+ioH8XFcZ1a0pYLkvUsZtPMp1srNC0DHDFEdrbJHqP6TTYeO/tC9jDl6UufkEDsA36vE8NXV9O2fUg3ESlUiFBeBepuDlgRRO7bZ61/vFF+zVJAD6KE6g9WpazTzTZgl0JFZdfs9nQyTV9rvI/hOpoYRTGbAgIU6Ik4oSRR/lDkw4rBho69isKEuhIx4JIuROike5gtlUkQwkpS4HLhfKwRQrfYrD94Gzrfs/ZDcuiPywvxvcb1Q2ObTqhsuKsN6fPgkFseq34wNABI0rz+hq+RR1gL7Xmz3jJgdkAbuzZdBnhbOFO1u6TWC+of8ZvwLHAD6X394pBtiqeJo+TvyVe2+L4+qbzvaEneAYRfDjo9PxzToK62mdQYYLgml7o1IEnRc7XsEPSL3Fx562KNDZmpKAPWsAQneeuAp5Rdf76PjHC6ms5odS24/D71gfhS7WitYoBbeNp6ABadN/+3psKVbzQrYXDS6CamOAhXHSKAkUNIjmSYZ4BsGqQno+v83tIgAPy7j24aroBwy/uD5GJhbSDKhXL4DFP82V1OnvB8YvOLYj5UC4RhGBrjBGMPV9Ju9MZUe1qgI56ALgCVHQEfshXOi/Q7lm9EQ4FZzHY=

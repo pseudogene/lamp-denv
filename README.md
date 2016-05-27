@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pseudogene/lamp-denv.svg?branch=master)](https://travis-ci.org/pseudogene/lamp-denv)
+
 #lamp-denv
 
 We foster the openness, integrity, and reproducibility of scientific research.
