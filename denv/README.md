@@ -13,7 +13,7 @@ We foster the openness, integrity, and reproducibility of scientific research.
 
 ##How to use this repository?
 
-This repository host both the scripts and command used by this study and the raw results generated at the time.
+This repository host both the scripts and commands used by this study and the raw results generated at the time.
 
 
 ####Collecting genomes
@@ -63,7 +63,7 @@ sequence_4	-14.38	-6.75	1.06	2	1
 ...
 ```
 
-#### Building the primer set
+#### Building the primer sets
 
 Retrieve the subgroups/genotypes from the TSV file and run [LAVA-DNA](https://github.com/dylanstorey/lava-dna) on each genotype and each combination. DENV1, DENV2 and DENV3 used the `loose` parameter set from [LAVA-DNA](https://github.com/dylanstorey/lava-dna), while DENV4 used the more restrictive `standard` parameter set.
 
@@ -166,3 +166,10 @@ Any issue related to the scientific results themselves must be done directly wit
 ##Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
+
+
+##License and distribution
+
+
+This code is distributed under the GNU GPL license v3. The documentation, raw data and work are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.​
+
