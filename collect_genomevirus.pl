@@ -26,6 +26,7 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Bio::SeqIO;
+use Bio::DB::Query::GenBank;
 use Bio::DB::GenBank;
 my %query = (1 => 'txid11053[Organism:exp] AND "Dengue virus 1"[porgn]', 2 => 'txid11060[Organism:exp] AND "Dengue virus 2"[porgn]', 3 => 'txid11069[Organism:exp] AND "Dengue virus 3"[porgn]', 4 => 'txid11070[Organism:exp] AND "Dengue virus 4"[porgn]');
 my ($verbose, $after, $before, $ok, $skip, $missing, $denv, $genome) = (0, 0, 1900 + (localtime(time))[5], 0, 0, 0);

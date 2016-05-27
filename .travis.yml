@@ -7,7 +7,7 @@ services:
 install:
 - docker build --rm=true --file=Dockerfile -t lamp-denv .
 script:
-- docker run -it lamp-denv /denv/collect_genomevirus.pl -f denv4.fasta -d 4 -a 2004
+- docker run -it lamp-denv /dengue/collect_genomevirus.pl -f denv4.fasta -d 4 -a 2004
   -b 2014
 notifications:
   slack:
