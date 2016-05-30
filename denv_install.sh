@@ -26,12 +26,6 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential gfortran libbl
 perl -MCPAN -e 'my $c = "CPAN::HandleConfig"; $c->load(doit => 1, autoconfig => 1); $c->edit(prerequisites_policy => "follow"); $c->edit(build_requires_install_policy => "yes"); $c->commit'
 perl -MCPAN -e 'install Bio::Graphics'
 
-wget http://heanet.dl.sourceforge.net/project/primer3/primer3/2.3.7/primer3-2.3.7.tar.gz
-tar xfz primer3-2.3.7.tar.gz
-mkdir -p /usr/local/share/primer3/
-cp -r primer3-2.3.7/src/primer3_config /usr/local/share/primer3/primer3_config
-rm -rf primer3-2.3.7.tar.gz primer3-2.3.7
-
 wget http://bioinfo.unl.edu/downloads/GramAlign3_00.zip
 unzip GramAlign3_00.zip 
 cd GramAlign3_00/src
@@ -50,7 +44,6 @@ cd lava-dna
 perl Makefile.PL
 make
 make install
-dos2unix *.pl
 cd ..
 
 chmod 755 /dengue/*.pl
